@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    margin-left: 20px;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+#nav {
+    display: flex;
+}
+
+#nav li {
+    list-style: none;
+    margin: 0px 20px;
+    transition: 0.3s ease;
+}
+
+#nav li:hover {
+    transform: scale(1.1);
+}
+
+#nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Sour Gummy", sans-serif;
+}
+
+/* about */
+
+#about-me {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 80vw;
+    margin: 20px auto;
+}
+
+#about-me img {
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px black;
+    height: 300px;
+    width: auto;
+    transition: 0.3s ease;
+}
+
+#about-me img:hover {
+    transform: scale(1.05) rotate(2deg);
+}
+
+#about-p {
+    margin-right: 40px;
+}
+
+#about-p h2 {
+    font-size: 32px;
+}
+
+#about-p p {
+    margin: 20px 0px;
+    text-align: justify;
+}
+
+/* projects */
+
+#projects h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#projects ul {
+    text-align: center;
+    font-size: 24px;
+}
+
+#projects ul li {
+    margin: 20px 0px;
+}
+
+#projects ul p {
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+#projects ul p:hover {
+    transform: scale(1.5);
+}
+
+#projects ul p a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Icons */
+
+#skills h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+.icon {
+    width: auto;
+    height: 90px;
+    margin: 10px 40px;
+    filter: grayscale();
+    transition: 0.3s ease;
+}
+
+.icon:hover {
+    filter: none;
+    transform: scale(1.1);
+}
+
+.github {
+    height: 80px;
+    width: auto;
+}
+
+#skills-cont {
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+/* footer */
+
+footer {
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    padding: 24px;
+}
